@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="GameServerApi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\cemba\\source\\repos\\GameServerApi\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="GameServerApi.Data.DataContext" description="" value="Data Source=tcp:gameserverapidbserver.database.windows.net,1433;Initial Catalog=GameServerApi_db;User Id=cembaran@gameserverapidbserver;Password=Cem5326145842" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\cemba\\source\\repos\\GameServerApi\\obj\\Release\\net6\.0\\PubTmp\\EFSQLScripts\\GameServerApi\.Data\.DataContext\.sql$" />
+  </parameter>
+</parameters>
